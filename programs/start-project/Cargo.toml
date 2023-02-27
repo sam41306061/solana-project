@@ -1,12 +1,12 @@
 [package]
-name = "start-project"
+name = "mytestproject"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "start_project"
+name = "mytestproject"
 
 [features]
 no-entrypoint = []
@@ -16,4 +16,4 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.26.0"
+anchor-lang = "0.25.0"
